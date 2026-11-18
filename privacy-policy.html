@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Renaissance – Privacy Policy</title>
+<style>
+:root{color-scheme:light dark;--bg:#fbf8f2;--fg:#1f1b16;--mut:#6b6358;--acc:#7a5a00;--line:#e2dbcc}
+@media (prefers-color-scheme:dark){:root{--bg:#17140f;--fg:#efe9dc;--mut:#a89f8f;--acc:#ffd20a;--line:#3a342a}}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:46rem;margin:0 auto;padding:1.5rem 1rem 4rem}
+h1{font-size:1.7rem;line-height:1.25;margin:.2rem 0 .3rem}
+h2{font-size:1.2rem;margin:2.2rem 0 .5rem;padding-top:1rem;border-top:1px solid var(--line)}
+h3{font-size:1rem;margin:1.2rem 0 .3rem}
+a{color:var(--acc)}
+.mut{color:var(--mut);font-size:.9rem}
+.box{border:1px solid var(--line);border-radius:8px;padding:.8rem 1rem;margin:1rem 0}
+table{border-collapse:collapse;width:100%;font-size:.92rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--line);padding:.45rem .6rem;text-align:left;vertical-align:top}
+th{background:rgba(127,127,127,.12)}
+.todo{background:rgba(255,210,10,.25);padding:0 .25em;border-radius:3px}
+</style>
+</head>
+<body>
+<main>
+<p class="mut"><a href="politique-confidentialite.html">Version française</a></p>
+<h1>Renaissance Privacy Policy</h1>
+<p class="mut">Last updated: <span>18 novembre 2026</span> · Android app "Renaissance" (package fr.renaissance.app)</p>
+
+<div class="box">
+<strong>In short.</strong> Your data (workouts, meals, sleep, mood, weight, activity, settings) stays on your phone, in an encrypted database. The developer never has access to it. There is no account, and no analytics or advertising tool in the app. Only a few technical requests leave the device, without your log or your health data: food search (Open Food Facts) and downloading exercise illustrations (jsDelivr). Your data is copied elsewhere only in a backup that you create yourself.
+</div>
+
+<h2>1. Who is responsible?</h2>
+<p>The data controller is:</p>
+<ul>
+<li>Name / entity: <span>Jérémy Quimbre (entrepreneur individuel – micro-entreprise)</span></li>
+<li>Address: <span>Saint-Étienne (42), France — full address on written request</span></li>
+<li>Privacy contact: <span>contact.renaissanceapp@gmail.com</span></li>
+</ul>
+<p>Most of your data is processed only on your device: the developer receives no copy and has no way to read it.</p>
+
+<h2>2. Data processed, purposes and legal bases</h2>
+<p>The app is intended for people aged 18 and over. It is not a medical device and provides no diagnosis.</p>
+<table>
+<tr><th>Feature</th><th>Data</th><th>Where</th><th>Purpose</th><th>Legal basis</th></tr>
+<tr><td>Workout log, strength programs</td><td>Sessions, sets (reps, weights, RPE), programs, one-rep maxes, records</td><td>Phone only, encrypted</td><td>Keep your log, compute your working weights</td><td>On-device processing initiated by you (the developer receives nothing)</td></tr>
+<tr><td>Nutrition</td><td>Meals, foods, macro targets</td><td>Phone only, encrypted</td><td>Track your diet</td><td>Same</td></tr>
+<tr><td>Sleep, mood, weight, activity</td><td>Sleep, evening check-in (mood, energy, stress, soreness, free note), weight, steps, active calories</td><td>Phone only, encrypted</td><td>Personal tracking and scores</td><td>Same</td></tr>
+<tr><td>Health Connect (read-only)</td><td>Sleep sessions, steps, active calories, heart rate, resting heart rate, heart rate variability (HRV), nutrition</td><td>Read on the phone, copied into the local encrypted database</td><td>Feed your tracking without re-entry</td><td>Same, after you grant permission in Health Connect, revocable at any time</td></tr>
+<tr><td>Settings, reminders</td><td>Preferences, reminder times (local notifications, no health data in the text)</td><td>Phone only</td><td>Run the app</td><td>Same</td></tr>
+<tr><td>Barcode scanning</td><td>Camera image, analysed on the device, neither stored nor sent</td><td>Phone</td><td>Read a food barcode</td><td>Same, after camera permission</td></tr>
+<tr><td>Food search (Open Food Facts)</td><td>Search text or barcode, IP address, app identification (User-Agent)</td><td>Open Food Facts servers</td><td>Look up nutrition values</td><td>Legitimate interest (GDPR art. 6.1.f) in running a feature you trigger. No health data is sent.</td></tr>
+<tr><td>Exercise illustrations</td><td>IP address (image download)</td><td>jsDelivr CDN</td><td>Display illustrations</td><td>Legitimate interest (art. 6.1.f)</td></tr>
+<tr><td>Backup</td><td>Full copy of your data, encrypted with your passphrase</td><td>Wherever you store it (Android share sheet)</td><td>Restore or move your data</td><td>On-device processing initiated by you</td></tr>
+<tr><td>Report a problem</td><td>E-mail written by you, pre-filled with app version, device model and Android version. No health data.</td><td>Your mail app, then the developer</td><td>Fix a problem, reply to you</td><td>Legitimate interest (art. 6.1.f), at your initiative</td></tr>
+</table>
+<p>Health data processed locally does not leave your device, except through a backup you create yourself (section 3).</p>
+
+<h2>3. What leaves your phone</h2>
+<p>Apart from backups, only the following requests leave the device. They are encrypted in transit (HTTPS) and contain neither your log, nor your workouts, nor your health data, nor your Health Connect data.</p>
+<ul>
+<li><strong>Food search and barcode scanning (Open Food Facts)</strong>: when you search for a food or scan a barcode, the text you typed or the barcode is sent to Open Food Facts servers, together with your IP address and an app identification (User-Agent "Renaissance/1.0"). Nothing is sent until you start a search or a scan. The camera image stays on the device.</li>
+<li><strong>Exercise illustrations (jsDelivr)</strong>: the app downloads illustrations from the jsDelivr CDN. The CDN receives your IP address and the address of the requested illustration.</li>
+<li><strong>Backup</strong>: you create a file encrypted with your passphrase and choose where to store it (Android share sheet). The app does not send it anywhere by itself.</li>
+<li><strong>Report a problem</strong>: the app opens your mail app with a pre-filled e-mail (app version, edition, Android version, device model, date). You read it, edit it and send it yourself, or not.</li>
+<li><strong>Crash reports</strong>: the app includes no reporting tool. Google Play may however collect crash reports (Android vitals) according to your phone's Android settings, under Google's responsibility.</li>
+</ul>
+<p>Reminders are local notifications scheduled on your phone: no server is involved. Health Connect is read locally, on your device.</p>
+
+<h2>4. Recipients and processors</h2>
+<table>
+<tr><th>Recipient</th><th>Role</th><th>Data</th><th>Country</th></tr>
+<tr><td>Open Food Facts</td><td>Collaborative food database (independent recipient)</td><td>Search text or barcode, IP address</td><td>Depends on their servers</td></tr>
+<tr><td>jsDelivr (CDN)</td><td>Delivering illustrations</td><td>IP address</td><td>Global network</td></tr>
+<tr><td>Google (Play Store, Android vitals)</td><td>App distribution; crash reports collected by Google according to your Android settings</td><td>Per Google's policies</td><td>Per Google</td></tr>
+</table>
+<p>The app contains no analytics, advertising or tracking tool. No data is sold.</p>
+
+<h2>5. Transfers outside the European Union</h2>
+<p>Requests to jsDelivr and Open Food Facts may be served from servers outside the EU. They contain no health data: only your IP address, the illustration address, the search text or the barcode are concerned. If you use neither food search nor the illustrations, none of these requests is made. Any Android vitals crash reports are Google's responsibility.</p>
+
+<h2>6. Retention periods</h2>
+<ul>
+<li>On-device data: until you delete it or uninstall the app.</li>
+<li>Open Food Facts and jsDelivr: according to their own retention policies (the developer receives no copy).</li>
+<li>"Report a problem" e-mails: as long as needed to handle your request <span>12 mois</span>.</li>
+<li>Backups: wherever you stored them, until you delete them.</li>
+</ul>
+
+<h2>7. Security</h2>
+<ul>
+<li>The local database is encrypted (SQLCipher); the key is kept in Android's secure storage.</li>
+<li>An optional biometric lock protects opening the app.</li>
+<li>Requests to Open Food Facts and jsDelivr are encrypted (HTTPS).</li>
+<li>Backups are encrypted with a passphrase you choose. <strong>The developer cannot recover it: if you forget it, the backup cannot be recovered.</strong></li>
+<li>No system is infallible: an unlocked or compromised phone remains a risk.</li>
+</ul>
+
+<h2>8. Your rights and how to exercise them</h2>
+<p>You have the rights of access, rectification, erasure, restriction, objection and portability, and the right to withdraw consent at any time (GDPR art. 15 to 21 and 7.3).</p>
+<ul>
+<li><strong>Access, rectification, portability</strong>: your data is in the app; you can view it, edit it and create a full backup.</li>
+<li><strong>Erasure</strong>: delete your data in the app (Settings › Backup › “Erase all my data”), or uninstall it (or clear its data in Android settings): the local database is then deleted. Remember to delete your backups too.</li>
+<li><strong>Health Connect</strong>: revoke read permissions in Android settings (Health Connect) at any time.</li>
+<li><strong>Data held by the developer</strong>: the developer holds none of your data (no account, no storage server). For any question or request: <span>contact.renaissanceapp@gmail.com</span>.</li>
+<li><strong>Complaint</strong>: you may lodge a complaint with the CNIL (French data protection authority), <a href="https://www.cnil.fr/en/complaints">www.cnil.fr/en/complaints</a>, or with the data protection authority of your country of residence.</li>
+</ul>
+<p>Because the developer cannot access data stored on your phone, they cannot view or modify it on your behalf.</p>
+
+<h2>9. Use of Health Connect data</h2>
+<p>Renaissance reads Health Connect data, read-only and with your permission: sleep, steps, active calories, heart rate, resting heart rate, HRV, nutrition. The app writes nothing to Health Connect. This data is used only to provide features visible in the app: sleep, activity and nutrition tracking, and personal scores.</p>
+<p>In line with Google Play's requirements for Health Connect data ("Limited Use"): this data is not sold or transferred to advertising platforms, data brokers or credit-scoring services, and is not used for advertising; the developer has no access to it; it is passed to no third party and does not leave the device, except in a backup you create yourself; it is not used to train models; and the app is not a medical device.</p>
+
+<h2>10. Minors</h2>
+<p>Renaissance is intended for people aged 18 and over. We do not knowingly collect data from minors. Minors should not use the app.</p>
+
+<h2>11. Android permissions</h2>
+<p>The app may ask for access to the camera (barcode scanning), notifications (local reminders, no health data in the text) and Health Connect read access. Each is optional and revocable in Android settings.</p>
+
+<h2>12. Changes</h2>
+<p>This policy may change, for example if a feature changes. The update date is shown at the top. For any significant change affecting your health data, we will inform you appropriately and, where the law requires it, ask for your consent again.</p>
+
+<h2>13. Contact</h2>
+<p><span>contact.renaissanceapp@gmail.com</span> · This policy is hosted at <span>https://akhlan26.github.io/renaissance-site/privacy-policy.html</span></p>
+</main>
+<!-- Sources verifiees le 2026-10-29 (commentaire non affiche) :
+- Google Play, politique Health Connect : https://support.google.com/googleplay/android-developer/answer/9888170 (pas de phrase-type a recopier ; usages permis/interdits repris en section 9)
+- NON VERIFIE : politiques de confidentialite de jsDelivr et d'Open Food Facts (pays, duree des journaux).
+-->
+</body>
+</html>
